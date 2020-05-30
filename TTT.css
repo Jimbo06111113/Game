@@ -1,0 +1,50 @@
+h1 {text-align:center;}
+
+table{margin: 0 auto 0 auto;}
+
+
+#TL{border-right: 1px solid black;
+	border-bottom: 1px solid black;
+padding: 50px;
+}
+
+#TC{
+		border-bottom: 1px solid black;
+padding: 50px;
+}
+
+#TR{border-left: 1px solid black;
+border-bottom: 1px solid black;
+padding: 50px;
+}
+
+#ML{border-right: 1px solid black;
+	border-bottom: 1px solid black;
+padding: 50px;
+}
+
+#MC{border-bottom: 1px solid black;
+padding: 50px;
+}
+
+#MR{border-left: 1px solid black;
+padding: 50px;
+
+}
+
+
+#BL{border: border-right: 1px solid black;
+padding: 50px;
+	
+}
+
+#BC{border-left: 1px solid black;
+padding: 50px;
+}
+
+#BR{border-left: 1px solid black;
+border-top: 1px solid black;
+padding: 50px;
+
+}
+
