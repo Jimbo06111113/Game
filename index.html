@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="game.css">
+    <title>Color Game</title>
+   
+</head>
+<body>
+    <h1> Given the RGB below guess the color by clicking on one of the sqaures below
+        <br>
+        <span id="colorDisplay" >RGB </span> 
+        <br>
+         Game
+        </h1>
+        
+    <div id="stripe">
+        <button id="reset">New colors</button>
+        <span id="messageDisplay"></span>
+        <button id="easyBtn">Easy</button>
+        <button id="hardBtn" class="selected">Hard</button>
+    </div>
+
+    <div id="container">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <script src="game.js"></script>
+
+    </div>
+
+    <br>
+<div>
+
+    <a id="in" href="https://www.nixsensor.com/what-is-rgb-color/#:~:text=RGB%20is%20called%20an%20additive,types%20of%20cone%20cells%20simultaneously.&text=As%20shown%20above%2C%20the%20combinations,us%20to%20perceive%20different%20colors." target="_blank">How Does rgb work?</a>
+
+</div>
+ 
+    
+    <script src="game.js"></script>
+</body>
+</html>
